@@ -6,26 +6,14 @@ GBDA302 Week 4 Example 5: Blob Platformer (JSON + Classes)
 
 ## Authors
 
-Karen Cochrane and David Han
+Karen Cochrane and David Han (original file)
+Jayna Patel (updates)
 
 ---
 
 ## Description
 
-This matches the structure of the original blob sketch from Week 2 but moves
-details into classes.
-
----
-
-## Learning Goals
-
-Learning Goals:
-
-- - load JSON in preload()
-- create WorldLevel from JSON
-- create BlobPlayer
-- update + draw each frame
-- handle input events (jump, optional next level)
+The blob game from Week 2 has been editied to have 5 different themed levels that the player can go through.
 
 ---
 
@@ -37,6 +25,6 @@ N/A
 
 ## GenAI
 
-The code was written by Dr. Karen Cochrane and David Han but they used GenAI to write the comments.
+GenAI was used to update and edit the code based on the requirement to add additional levels
 
 ---
