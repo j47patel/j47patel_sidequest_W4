@@ -45,6 +45,13 @@ function draw() {
 
   // 2) Update and draw the player on top of the world
   player.update(world.platforms);
+
+  // If player falls off the level, advance to next level
+  if (player.y - player.r > height) {
+    nextLevel();
+    return;
+  }
+
   player.draw(world.theme.blob);
 
   // 3) HUD
@@ -85,4 +92,9 @@ function loadLevel(i) {
 
   // Apply level settings + respawn.
   player.spawnFromLevel(world);
+}
+
+function nextLevel() {
+  const next = (levelIndex + 1) % data.levels.length;
+  loadLevel(next);
 }
