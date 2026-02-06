@@ -23,7 +23,7 @@ The algorithm is the same as the original blob world example from Week 2:
 - Write back box center to blob position
 */
 
-class BlobPlayer {
+class blobPlayer {
   constructor() {
     // ----- Transform -----
     this.x = 0;

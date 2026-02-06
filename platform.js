@@ -12,7 +12,7 @@ In JSON, platforms are stored like:
 { "x": 0, "y": 324, "w": 640, "h": 36 } 
 */
 
-class Platform {
+class platform {
   constructor({ x, y, w, h }) {
     // Position is the top-left corner.
     this.x = x;

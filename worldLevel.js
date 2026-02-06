@@ -25,7 +25,7 @@ Expected JSON shape for each level (from your provided file):
 }
 */
 
-class WorldLevel {
+class worldLevel {
   constructor(levelJson) {
     // A readable label for HUD.
     this.name = levelJson.name || "Level";
